@@ -1,0 +1,5 @@
+Inorder to edit the messages,
+ie once i sent stop message i want to edit the message with inline buttons, 
+earlier i was using a list to track but now we are using dicts
+
+so start_convo query is start, 
