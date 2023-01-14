@@ -50,7 +50,6 @@ async def start_conversation(update: Update, context: ContextTypes.DEFAULT_TYPE)
     inlineButtons = [
        [InlineKeyboardButton("I KNOW THE BUDGET".title(), callback_data="budget"),] ,
        [InlineKeyboardButton("I KNOW THE TYPE OF PLACE".title(), callback_data="place")],
-       [InlineKeyboardButton("I changed my mind, End Conversation".title(), callback_data="end conversation")],
     ]
     reply_markup = InlineKeyboardMarkup(inlineButtons)
     
